@@ -5,7 +5,7 @@ lastdayofmonth
 Ever want to find all the last Sundays in 2022?
 
 ```sh
-lastdaysofmonth --year 2022 --day Sunday
+lastdayofmonth --year 2022 --day Sunday
 ```
 
 This is an application to get all the last days of all months for a given a
