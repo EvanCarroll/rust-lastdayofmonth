@@ -1,7 +1,7 @@
 [package]
 name = "lastdayofmonth"
 author  = "Evan Carroll"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 repository = "https://github.com/EvanCarroll/rust-lastdayofmonth"
 description = "Calculate all the the last weekdays of a month for a year: ex last Sundays in 2022"
