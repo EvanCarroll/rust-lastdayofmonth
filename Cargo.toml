@@ -3,6 +3,9 @@ name = "lastdayofmonth"
 author  = "Evan Carroll"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/EvanCarroll/rust-lastdayofmonth"
+description = "Calculate all the the last weekdays of a month for a year: ex last Sundays in 2022"
+license = "CC0-1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
