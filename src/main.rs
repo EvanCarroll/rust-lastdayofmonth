@@ -16,9 +16,9 @@ fn folder( mut acc: Vec<NaiveDate>, date: NaiveDate ) -> Vec<NaiveDate> {
 	acc
 }
 
-/// Takes a year, returns the last Day of every month in the given year.
-/// Calculate the first Sunday of the given year. Iterate over every subsequent
-/// Sunday, so long as the year is the same collect into an 
+/// Takes a year and get the first `${Foo}day`. Then calculate every
+/// `${Foo}day` of the given year. Fold this into a Vec of length 12 (one for
+/// each month) representing the last `${Foo}day`.
 fn get_last_day_of_months(yr: i32, day: Weekday) -> Vec<NaiveDate> {
 	NaiveDate::from_weekday_of_month(yr, 1, day, 1)
 		.iter_weeks()
